@@ -38,4 +38,4 @@ Just documenting some troubles for Cordova
        return suppressErrorAlert;
     };
 
-* It is better to commit everything! This is because cordova app depends on plugins, and it can break if updated codes from plugins are bad (assuming the latest codes are UNSTABLE).
+* It is better to commit everything (+ build locations)! This is because cordova app depends on plugins, and it can break if updated codes from plugins are bad (assuming the latest codes are UNSTABLE).
