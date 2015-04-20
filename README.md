@@ -72,3 +72,6 @@ Just documenting some troubles for Cordova
     drwxr-xr-x  3 24561  wheel  102 Feb  6 12:19 dtrace
     drwxr-xr-x  8 24561  wheel  272 Apr  2 10:16 node_modules
     Youngs-MacBook-Pro:oneverse youngpark$ chmod +x /Users/youngpark/CIF/oneverse/hooks/after_prepare/010_add_platform_class.js 
+
+* If Getting "SSL Certificate Error Alert"
+`http://www.thomasmaximini.com/2015/01/23/getting-started-with-crosswalk-in-ionic.html`
