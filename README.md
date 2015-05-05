@@ -78,6 +78,7 @@ Just documenting some troubles for Cordova
 
 * If getting below error when compiling, then DO `cordova platform update <platform>`
 
+
     module.js:338
         throw err;
               ^
