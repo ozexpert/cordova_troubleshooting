@@ -75,3 +75,19 @@ Just documenting some troubles for Cordova
 
 * If Getting "SSL Certificate Error Alert"
 `http://www.thomasmaximini.com/2015/01/23/getting-started-with-crosswalk-in-ionic.html`
+
+* If getting below error when compiling, then DO `cordova platform update <platform>`
+module.js:338
+    throw err;
+          ^
+Error: Cannot find module 'q'
+    at Function.Module._resolveFilename (module.js:336:15)
+    at Function.Module._load (module.js:278:25)
+    at Module.require (module.js:365:17)
+    at require (module.js:384:17)
+    at Object.<anonymous> (/Users/youngpark/CIF/oneverse/platforms/android/cordova/lib/spawn.js:23:15)
+    at Module._compile (module.js:460:26)
+    at Object.Module._extensions..js (module.js:478:10)
+    at Module.load (module.js:355:32)
+    at Function.Module._load (module.js:310:12)
+    at Module.require (module.js:365:17)
