@@ -93,3 +93,7 @@ Just documenting some troubles for Cordova
         at Module.load (module.js:355:32)
         at Function.Module._load (module.js:310:12)
         at Module.require (module.js:365:17)
+
+* If getting "Application Error: Connection to server was unsuccessful to “www/assets/index.html”" when starting up apps:
+
+    https://www.robertkehoe.com/2013/01/fix-for-phonegap-connection-to-server-was-unsuccessful/
