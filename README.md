@@ -97,3 +97,9 @@ Just documenting some troubles for Cordova
 * If getting "Application Error: Connection to server was unsuccessful to “www/assets/index.html”" when starting up apps:
 
     https://www.robertkehoe.com/2013/01/fix-for-phonegap-connection-to-server-was-unsuccessful/
+
+# IOS
+
+* If getting ExecutableKey error
+
+    http://stackoverflow.com/questions/32096130/unexpected-cfbundleexecutable-key
