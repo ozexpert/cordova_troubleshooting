@@ -103,3 +103,9 @@ Just documenting some troubles for Cordova
 * If getting ExecutableKey error
 
     http://stackoverflow.com/questions/32096130/unexpected-cfbundleexecutable-key
+
+# Useful Tip
+
+* Using multiple Github account on single pc
+
+    http://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574
