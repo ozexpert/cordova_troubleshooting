@@ -20,6 +20,7 @@ Just documenting some troubles for Cordova
 
 * Error handling (client side)
 
+```
     window.onerror = function(msg, url, line, col, error) {
        // Note that col & error are new to the HTML 5 spec and may not be 
        // supported in every browser.  It worked for me in Chrome.
@@ -37,6 +38,7 @@ Just documenting some troubles for Cordova
        // Internet Explorer) will be suppressed.
        return suppressErrorAlert;
     };
+```
 
 * It is better to commit everything (+ build locations)! This is because cordova app depends on plugins, and it can break if updated codes from plugins are bad (assuming the latest codes are UNSTABLE).
 
@@ -97,6 +99,12 @@ Just documenting some troubles for Cordova
 * If getting "Application Error: Connection to server was unsuccessful to “www/assets/index.html”" when starting up apps:
 
     https://www.robertkehoe.com/2013/01/fix-for-phonegap-connection-to-server-was-unsuccessful/
+
+* If getting `You have not accepted the license agreements of the following SDK components: [Android SDK Build-Tools 24, Android SDK Platform 24]`
+
+```
+android update sdk --no-ui --filter build-tools-24.0.0,android-24,extra-android-m2repository
+```
 
 # IOS
 
