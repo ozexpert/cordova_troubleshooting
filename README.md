@@ -44,6 +44,7 @@ Just documenting some troubles for Cordova
 
 * If getting ERROR: spawn EACCES
 
+```
     Youngs-MacBook-Pro:oneverse youngpark$ cordova prepare
     Running command: /Users/youngpark/CIF/oneverse/hooks/after_prepare/010_add_platform_class.js /Users/youngpark/CIF/oneverse
     Error: spawn EACCES
@@ -74,13 +75,14 @@ Just documenting some troubles for Cordova
     drwxr-xr-x  3 24561  wheel  102 Feb  6 12:19 dtrace
     drwxr-xr-x  8 24561  wheel  272 Apr  2 10:16 node_modules
     Youngs-MacBook-Pro:oneverse youngpark$ chmod +x /Users/youngpark/CIF/oneverse/hooks/after_prepare/010_add_platform_class.js 
+```
 
 * If Getting "SSL Certificate Error Alert"
 `http://www.thomasmaximini.com/2015/01/23/getting-started-with-crosswalk-in-ionic.html`
 
 * If getting below error when compiling, then DO `cordova platform update <platform>`
 
-
+```
     module.js:338
         throw err;
               ^
@@ -95,6 +97,7 @@ Just documenting some troubles for Cordova
         at Module.load (module.js:355:32)
         at Function.Module._load (module.js:310:12)
         at Module.require (module.js:365:17)
+```
 
 * If getting "Application Error: Connection to server was unsuccessful to “www/assets/index.html”" when starting up apps:
 
