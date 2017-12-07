@@ -105,6 +105,10 @@ Just documenting some troubles for Cordova
 
 * If getting `You have not accepted the license agreements of the following SDK components: [Android SDK Build-Tools 24, Android SDK Platform 24]`
 
+* If getting `Error: spawn EACCESS` for android
+
+    http://randomitstuff.com/2017/06/16/error-spawn-eacces-when-building-for-android-on-cordova/
+
 ```
 android update sdk --no-ui --filter build-tools-24.0.0,android-24,extra-android-m2repository
 ```
